@@ -1,0 +1,66 @@
+
+#banner-img {
+  text-align: center;
+  padding: 200px 0;
+  background-size: cover;
+  background-image: url("images/joshua-hoehne-fZObp7gYTLU-unsplash.jpg")
+}
+
+h1 {
+
+  color: whitesmoke;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+
+}
+
+h2 {
+  color: white;
+  opacity: 0.8;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sciencelink {
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+a {
+  color: #636363;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a:hover {
+  color: lightskyblue;
+}
+
+@media(max-width:992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width:1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    width: 400px;
+  }
+
+@media(max-width:576px) {
+  .container {
+    width: 200px;
+  }
